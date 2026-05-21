@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .main {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: hsl(212, 45%, 89%);
+      }
+
+      .container {
+        margin: 16px 16px 0 16px;
+        background: white;
+        height: 500px;
+        width: 320px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 15px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      }
+      .qr {
+        width: 288px;
+        height: 288px;
+        border-radius: 10px;
+      }
+      .Heading {
+        font-size: 22px;
+        font-weight: bold;
+        color: hsl(218, 44%, 22%);
+        line-height: 120%;
+        font-family: "Outfit";
+        margin: 16px 32px;
+      }
+      .desc {
+        margin: 0 24px 40px 24px;
+        font-size: 15px;
+        line-height: 140%;
+        letter-spacing: 0.2px;
+        font-family: "Outfit", sans-serif;
+        color: hsl(216, 15%, 48%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .desc span {
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <img src="images/image-qr-code.png" class="qr" alt="logo" />
+        <h1 class="Heading">
+          Improve your front-end skills by building projects
+        </h1>
+        <p class="desc">
+          <span>Scan the QR code to visit Frontend</span>
+          <span>Mentor and take your coding skills to</span>
+          <span>the next level</span>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
